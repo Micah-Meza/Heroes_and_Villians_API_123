@@ -8,7 +8,7 @@ class SuperType(models.Model):
                     (villian, 'Villian'),
     ]
 
-    type = models.CharField(max_length = 7, choices = super_choices, default = "")
+    type = models.CharField(max_length = 7, choices = super_choices, default = hero)
 
 
 
